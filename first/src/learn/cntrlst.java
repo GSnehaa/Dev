@@ -5,7 +5,7 @@ public class cntrlst {
 	public static void main(String[] args) {
 		
 //		int result = getindex(45);
-		int i =1123;
+		int i =12345;
 		reverse(i);
 //		 int u =i++;
 //		int ii= ++i;
