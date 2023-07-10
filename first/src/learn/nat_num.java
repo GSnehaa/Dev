@@ -1,6 +1,6 @@
 package learn;
 
-public class number {
+public class nat_num {
 	public static void main(String args[]) {
 		num(1);
 	}
@@ -11,6 +11,5 @@ public class number {
 			a++;
 			num(a);
 		}
-
 	}
 }
