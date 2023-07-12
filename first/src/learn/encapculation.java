@@ -12,7 +12,7 @@ public class encapculation {
 	}
 public static void main(String args[]) {
 	encapculation en = new encapculation();
-	en.setName("vuub");
+	en.setName("xyz");
 	String s = en.getName();
 }
 }

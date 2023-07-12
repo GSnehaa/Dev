@@ -1,14 +1,7 @@
 package learn;
 
-//import java.util.Scanner;
 public class arraysame {
 	public static void main(String args[]) {
-//		Scanner sc = new Scanner(System.in);
-//		System.out.println("Enter the array elements:");
-////		int[][] a = new int[5][5];
-//			a[i][i] = sc.nextInt();
-//			int a[][]= sc.nextInt();
-//			numbers(a);
 		int i[][] = {{34,45,78},{34,45,64}};
 		numbers(i);
 	}
