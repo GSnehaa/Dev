@@ -12,14 +12,11 @@ public class patterns {
 //			for(int j=0;j<=n;j++) {
 			for(int j=0;j<=n-i;j++) {
 //			for(int j=0;j<=i;j++) {
-				System.out.print(j);
-//				System.out.print("*");
+//				System.out.print(j);
+				System.out.print("*");
 			}
 			System.out.println(" ");
 		}
 	}
 }	
-
-
-
 

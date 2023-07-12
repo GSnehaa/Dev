@@ -1,21 +1,18 @@
 package learn;
-
-import java.util.Scanner;
-
+//Addition [i]= a[i] + b[i];
 public class array_arthimetic {
 	public static void main(String args[]) {
-		Scanner sc= new Scanner(System.in);
-		System.out.println("Enter the size of an array: ");
-		int size = sc.nextInt();
-		int []a = new int[size];
-		int []b = new int[size];
-		int []c = arith(a,b);
+		int [] a = new int[] {3,4,5,6};
+		int [] b = new int[] {1,6,7,8};
+		arith(a,b);
 	}
 	public static int[] arith(int []a, int[] b) {
-		int size;
-		System.out.println("Enter the elements in an array: ");
-		for(int i=1;i<=size;i++) {
-			 a[i] = sc.nextint();
+
+		for(int i=0;i<=a.length;i++) {
+			int[] add = new int[4];
+			add[i] = a[i] + b[i];
+			System.out.print(add[i] + "  ");
 		}
+		return null ;
 	}
 }

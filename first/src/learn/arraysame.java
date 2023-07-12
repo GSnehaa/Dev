@@ -20,10 +20,7 @@ public class arraysame {
 					System.out.println("the Same numbers are " + b + " ");
 				}
 				else {
-					int c;
-//					c.add(a[0][i].a[1][i]);
-//					c = a[0][i]+a[1][i];
-					System.out.println(a[0][i] + " " + a[1][i]   );
+					System.out.println("The numbers which are not same are: "+  a[0][i] + " " + a[1][i]);
 				}
 			}
 		}
