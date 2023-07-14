@@ -4,6 +4,7 @@ public class polymorphism {
 	public static void main(String args[]) {
 	drawing d = new rectangles();
 	d.draw();	
+	
 	}
 }
 class drawing {

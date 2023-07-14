@@ -1,5 +1,4 @@
 package learn;
-//Addition [i]= a[i] + b[i];
 public class array_arthimetic {
 	public static void main(String args[]) {
 		int [] a = new int[] {3,4,5,6};
