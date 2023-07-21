@@ -12,17 +12,19 @@ public class arrdeldup {
 		if(a.length == 0 || a.length == 1) {
 			System.out.println(a.length);
 		}
-		int temp[] = new int[a.length];
+		int c[] = new int[a.length];
 		int j = 0;
 		for(int i = 0;i<a.length-1;i++) {
 			if(a[i] != a[i+1]) {
-				temp[j++] = a[i];
+				c[j++] = a[i];
 			}
 		}
-		temp[j++]=a[a.length - 1];
+		c[j++]=a[a.length - 1];
 		for(int i = 0; i<j;i++) {
-			a[i] = temp[i];
+			a[i] = c[i];
 			System.out.print(a[i] + " ");
 		}
 	}
 }
+
+
