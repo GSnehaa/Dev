@@ -1,5 +1,5 @@
 package challenges;
-
+// rearrange to form palindrome
 public class test1 {
 	
 	public static void main(String args[]) {
@@ -20,11 +20,16 @@ public class test1 {
 				}
 			}
 		}
-		if(d+d+1 == st.length()) {
-			System.out.println("----");
+		if(d%2 !=0) {
+			System.out.println("Palindrome is possible");
+		}
+		else if(b%2== 0 && d%2 == 0) {
+			System.out.println("Palindrome is possible");
 		}
 		else {
-			System.out.println(",,,");
+			System.out.println("Palindrome is not possible");
 		}
 	}
 }
+
+
