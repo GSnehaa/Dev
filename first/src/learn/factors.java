@@ -10,7 +10,6 @@ public class factors {
 		number(num);
 	}
 	public static void number(int num) {
-		int a = 0;
 		for(int i=1;i<=num;i++) {
 			if(num % i == 0) {
 				System.out.print(i + " ");

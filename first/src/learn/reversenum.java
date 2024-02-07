@@ -19,3 +19,18 @@ public class reversenum {
 		return rev;
 	}	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
